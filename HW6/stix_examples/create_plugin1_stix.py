@@ -73,6 +73,7 @@ def main():
     indicator3.add_indicated_ttp(TTP(idref=ttp.id_))
 
     #indicator4 NBNS packet
+    #use this to find sample code
     indicator4 = Indicator(title="NetBios network traffic")
     indicator4.add_indicator_type("IP Watchlist")
     indicator4.add_observable(nbns_ipv4_header)
