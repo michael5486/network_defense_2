@@ -1,0 +1,2170 @@
+Nmap 7.60 scan initiated Mon Jan 29 11:19:42 2018 as: nmap -A -oN nmap.txt 192.168.90.0/24
+mass_dns: warning: Unable to open /etc/resolv.conf. Try using --system-dns or specify valid servers with --dns-servers
+mass_dns: warning: Unable to determine any DNS servers. Reverse DNS is disabled. Try using --system-dns or specify valid servers with --dns-servers
+Increasing send delay for 192.168.90.10 from 0 to 5 due to 11 out of 24 dropped probes since last increase.
+Increasing send delay for 192.168.90.10 from 5 to 10 due to 11 out of 26 dropped probes since last increase.
+Increasing send delay for 192.168.90.10 from 10 to 20 due to 11 out of 23 dropped probes since last increase.
+Increasing send delay for 192.168.90.10 from 20 to 40 due to 11 out of 16 dropped probes since last increase.
+Increasing send delay for 192.168.90.10 from 320 to 640 due to 14 out of 46 dropped probes since last increase.
+adjust_timeouts2: packet supposedly had rtt of -175210 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -175210 microseconds.  Ignoring time.
+Nmap scan report for 192.168.90.0
+Host is up (0.00022s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.15 ms 192.168.90.0
+
+Nmap scan report for 192.168.90.1
+Host is up (0.00022s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.15 ms 192.168.90.1
+
+Nmap scan report for 192.168.90.2
+Host is up (0.00032s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.14 ms 192.168.90.2
+
+Nmap scan report for 192.168.90.3
+Host is up (0.00027s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.14 ms 192.168.90.3
+
+Nmap scan report for 192.168.90.4
+Host is up (0.00021s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.13 ms 192.168.90.4
+
+Nmap scan report for 192.168.90.5
+Host is up (0.00029s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.16 ms 192.168.90.5
+
+Nmap scan report for 192.168.90.6
+Host is up (0.00018s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.12 ms 192.168.90.6
+
+Nmap scan report for 192.168.90.7
+Host is up (0.00026s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.11 ms 192.168.90.7
+
+Nmap scan report for 192.168.90.8
+Host is up (0.00030s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.11 ms 192.168.90.8
+
+Nmap scan report for 192.168.90.9
+Host is up (0.00029s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.11 ms 192.168.90.9
+
+Nmap scan report for 192.168.90.10
+Host is up (0.00023s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 984 closed ports
+PORT     STATE SERVICE      VERSION
+53/tcp   open  domain       Microsoft DNS
+88/tcp   open  kerberos-sec Microsoft Windows Kerberos (server time: 2018-03-19 15:23:43Z)
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn  Microsoft Windows netbios-ssn
+389/tcp  open  ldap         Microsoft Windows Active Directory LDAP (Domain: snpp.local, Site: Default-First-Site)
+445/tcp  open  microsoft-ds Windows Server 2003 3790 Service Pack 1 microsoft-ds
+464/tcp  open  kpasswd5?
+593/tcp  open  ncacn_http   Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  tcpwrapped
+1025/tcp open  msrpc        Microsoft Windows RPC
+1027/tcp open  ncacn_http   Microsoft Windows RPC over HTTP 1.0
+1037/tcp open  msrpc        Microsoft Windows RPC
+1040/tcp open  msrpc        Microsoft Windows RPC
+1048/tcp open  msrpc        Microsoft Windows RPC
+3268/tcp open  ldap         Microsoft Windows Active Directory LDAP (Domain: snpp.local, Site: Default-First-Site)
+3269/tcp open  tcpwrapped
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=1/29%OT=53%CT=1%CU=31111%PV=Y%DS=3%DC=T%G=Y%TM=5A6F534
+OS:5%P=x86_64-pc-linux-gnu)SEQ(SP=FA%GCD=1%ISR=106%TI=I%CI=RI%TS=0)SEQ(SP=F
+OS:A%GCD=1%ISR=106%TI=I%CI=RI%II=I%SS=S%TS=0)OPS(O1=M5B4NW0NNT00NNS%O2=M5B4
+OS:NW0NNT00NNS%O3=M5B4NW0NNT00%O4=M5B4NW0NNT00NNS%O5=M5B4NW0NNT00NNS%O6=M5B
+OS:4NNT00NNS)WIN(W1=FAF0%W2=FAF0%W3=FAF0%W4=FAF0%W5=FAF0%W6=FAF0)ECN(R=Y%DF
+OS:=N%T=80%W=FAF0%O=M5B4NW0NNS%CC=N%Q=)T1(R=Y%DF=N%T=80%S=O%A=S+%F=AS%RD=0%
+OS:Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=42%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)T5(R=Y%DF=
+OS:N%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=42%W=0%S=A%A=S%F=AR%O=
+OS:%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=80%IPL=B0%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G
+OS:%RUD=G)IE(R=Y%DFI=S%T=80%CD=Z)
+
+Network Distance: 3 hops
+TCP Sequence Prediction: Difficulty=250 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: CTF01-DC; OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_server_2003
+
+Host script results:
+|_clock-skew: mean: 48d22h28m12s, deviation: 0s, median: 48d22h28m12s
+| nbstat: NetBIOS name: CTF01-DC, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:bd:4f:16 (VMware)
+| Names:
+|   CTF01-DC<00>         Flags: <unique><active>
+|   SNPP<00>             Flags: <group><active>
+|   SNPP<1c>             Flags: <group><active>
+|   CTF01-DC<20>         Flags: <unique><active>
+|   SNPP<1b>             Flags: <unique><active>
+|   SNPP<1e>             Flags: <group><active>
+|   SNPP<1d>             Flags: <unique><active>
+|   \x01\x02__MSBROWSE__\x02<01>  Flags: <group><active>
+| Statistics:
+|   00 50 56 bd 4f 16 00 00 00 00 00 00 00 00 00 00 00
+|   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+|_  00 00 00 00 00 00 00 00 00 00 00 00 00 00
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 31270/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 57283/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 61629/udp): CLEAN (Failed to receive data)
+|   Check 4 (port 52011/udp): CLEAN (Failed to receive data)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb-os-discovery: 
+|   OS: Windows Server 2003 3790 Service Pack 1 (Windows Server 2003 5.2)
+|   OS CPE: cpe:/o:microsoft:windows_server_2003::sp1
+|   Computer name: CTF01-DC
+|   NetBIOS computer name: CTF01-DC\x00
+|   Domain name: snpp.local
+|   Forest name: snpp.local
+|   FQDN: CTF01-DC.snpp.local
+|_  System time: 2018-03-19T10:24:56-05:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: required
+|_smb2-security-mode: Couldn't establish a SMBv2 connection.
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE (using port 110/tcp)
+HOP RTT     ADDRESS
+1   0.12 ms 172.17.17.254
+2   0.29 ms 10.10.10.90
+3   0.44 ms 192.168.90.10
+
+Nmap scan report for 192.168.90.11
+Host is up (0.00028s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.16 ms 192.168.90.11
+
+Nmap scan report for 192.168.90.12
+Host is up (0.00024s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.16 ms 192.168.90.12
+
+Nmap scan report for 192.168.90.13
+Host is up (0.00027s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, PC-BSD 1.X|9.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:pc-bsd:pc_bsd:1.3 cpe:/o:pc-bsd:pc_bsd:9.1
+OS details: FreeBSD 6.2-RELEASE-p2 (pf with scrub enabled), FreeBSD 7.0-BETA4, FreeBSD 7.1-PRERELEASE - 7.3-RELEASE, FreeBSD 8.0-CURRENT, PC-BSD 1.3, PC-BSD 9.1
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=
+OS:x86_64-pc-linux-gnu)SEQ(CI=I)T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0
+OS:%Q=)T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)T7(R=N)U1(R=N)IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.16 ms 192.168.90.13
+
+Nmap scan report for 192.168.90.14
+Host is up (0.00025s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.15 ms 192.168.90.14
+
+Nmap scan report for 192.168.90.15
+Host is up (0.00024s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.14 ms 192.168.90.15
+
+Nmap scan report for 192.168.90.16
+Host is up (0.00022s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.08 ms 192.168.90.16
+
+Nmap scan report for 192.168.90.17
+Host is up (0.00019s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.14 ms 192.168.90.17
+
+Nmap scan report for 192.168.90.18
+Host is up (0.00031s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.13 ms 192.168.90.18
+
+Nmap scan report for 192.168.90.19
+Host is up (0.00022s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.13 ms 192.168.90.19
+
+Nmap scan report for 192.168.90.20
+Host is up (0.00031s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.12 ms 192.168.90.20
+
+Nmap scan report for 192.168.90.21
+Host is up (0.00028s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.12 ms 192.168.90.21
+
+Nmap scan report for 192.168.90.22
+Host is up (0.00027s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.11 ms 192.168.90.22
+
+Nmap scan report for 192.168.90.23
+Host is up (0.00025s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.11 ms 192.168.90.23
+
+Nmap scan report for 192.168.90.24
+Host is up (0.00022s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.10 ms 192.168.90.24
+
+Nmap scan report for 192.168.90.25
+Host is up (0.00032s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.12 ms 192.168.90.25
+
+Nmap scan report for 192.168.90.26
+Host is up (0.00018s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.13 ms 192.168.90.26
+
+Nmap scan report for 192.168.90.27
+Host is up (0.00023s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.12 ms 192.168.90.27
+
+Nmap scan report for 192.168.90.28
+Host is up (0.00022s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.12 ms 192.168.90.28
+
+Nmap scan report for 192.168.90.29
+Host is up (0.00026s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.11 ms 192.168.90.29
+
+Nmap scan report for 192.168.90.30
+Host is up (0.00016s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.10 ms 192.168.90.30
+
+Nmap scan report for 192.168.90.31
+Host is up (0.00025s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.10 ms 192.168.90.31
+
+Nmap scan report for 192.168.90.32
+Host is up (0.00023s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.10 ms 192.168.90.32
+
+Nmap scan report for 192.168.90.33
+Host is up (0.00024s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.10 ms 192.168.90.33
+
+Nmap scan report for 192.168.90.34
+Host is up (0.00018s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.13 ms 192.168.90.34
+
+Nmap scan report for 192.168.90.35
+Host is up (0.00027s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.13 ms 192.168.90.35
+
+Nmap scan report for 192.168.90.36
+Host is up (0.00023s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.13 ms 192.168.90.36
+
+Nmap scan report for 192.168.90.37
+Host is up (0.00022s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.12 ms 192.168.90.37
+
+Nmap scan report for 192.168.90.38
+Host is up (0.00019s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.12 ms 192.168.90.38
+
+Nmap scan report for 192.168.90.39
+Host is up (0.00022s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.11 ms 192.168.90.39
+
+Nmap scan report for 192.168.90.40
+Host is up (0.00022s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.11 ms 192.168.90.40
+
+Nmap scan report for 192.168.90.41
+Host is up (0.00024s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.10 ms 192.168.90.41
+
+Nmap scan report for 192.168.90.42
+Host is up (0.00021s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.10 ms 192.168.90.42
+
+Nmap scan report for 192.168.90.43
+Host is up (0.00026s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.09 ms 192.168.90.43
+
+Nmap scan report for 192.168.90.44
+Host is up (0.00019s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.12 ms 192.168.90.44
+
+Nmap scan report for 192.168.90.45
+Host is up (0.00022s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.11 ms 192.168.90.45
+
+Nmap scan report for 192.168.90.46
+Host is up (0.00023s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.12 ms 192.168.90.46
+
+Nmap scan report for 192.168.90.47
+Host is up (0.00026s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.11 ms 192.168.90.47
+
+Nmap scan report for 192.168.90.48
+Host is up (0.00021s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.11 ms 192.168.90.48
+
+Nmap scan report for 192.168.90.49
+Host is up (0.00019s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.11 ms 192.168.90.49
+
+Nmap scan report for 192.168.90.50
+Host is up (0.00020s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.11 ms 192.168.90.50
+
+Nmap scan report for 192.168.90.51
+Host is up (0.00023s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.10 ms 192.168.90.51
+
+Nmap scan report for 192.168.90.52
+Host is up (0.00024s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.10 ms 192.168.90.52
+
+Nmap scan report for 192.168.90.53
+Host is up (0.00024s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.10 ms 192.168.90.53
+
+Nmap scan report for 192.168.90.54
+Host is up (0.00019s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.13 ms 192.168.90.54
+
+Nmap scan report for 192.168.90.55
+Host is up (0.00020s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.11 ms 192.168.90.55
+
+Nmap scan report for 192.168.90.56
+Host is up (0.00027s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.09 ms 192.168.90.56
+
+Nmap scan report for 192.168.90.57
+Host is up (0.00023s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.16 ms 192.168.90.57
+
+Nmap scan report for 192.168.90.58
+Host is up (0.00024s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.16 ms 192.168.90.58
+
+Nmap scan report for 192.168.90.59
+Host is up (0.00017s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.15 ms 192.168.90.59
+
+Nmap scan report for 192.168.90.60
+Host is up (0.00018s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.14 ms 192.168.90.60
+
+Nmap scan report for 192.168.90.61
+Host is up (0.00024s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.14 ms 192.168.90.61
+
+Nmap scan report for 192.168.90.62
+Host is up (0.00024s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.13 ms 192.168.90.62
+
+Nmap scan report for 192.168.90.63
+Host is up (0.00020s latency).
+Scanned at 2018-01-29 11:19:42 EST for 2471s
+Not shown: 991 filtered ports
+PORT     STATE  SERVICE VERSION
+6000/tcp closed X11
+6001/tcp closed X11:1
+6002/tcp closed X11:2
+6003/tcp closed X11:3
+6004/tcp closed X11:4
+6005/tcp closed X11:5
+6006/tcp closed X11:6
+6007/tcp closed X11:7
+6009/tcp closed X11:9
+Device type: general purpose
+Running: FreeBSD 6.X|7.X|8.X, OpenBSD 4.X|5.X, PC-BSD 1.X
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta4 cpe:/o:freebsd:freebsd:8.0 cpe:/o:openbsd:openbsd:4.0 cpe:/o:openbsd:openbsd:5.0 cpe:/o:pc-bsd:pc_bsd:1.3
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=1/29%OT=%CT=6000%CU=%PV=Y%DS=1%DC=T%G=N%TM=5A6F5345%P=x86_64-pc-linux-gnu)
+SEQ(CI=RI)
+T5(R=Y%DF=Y%TG=40%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=S%F=AR%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.13 ms 192.168.90.63

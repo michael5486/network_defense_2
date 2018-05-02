@@ -1,0 +1,161 @@
+vol.py -f CaptureB-Virtual\ Machine-43223e0b.vmem --profile=Win2003SP1x86 -p 1028 handles
+Volatility Foundation Volatility Framework 2.6
+Offset(V)     Pid     Handle     Access Type             Details
+---------- ------ ---------- ---------- ---------------- -------
+0xe1007e08   1028        0x4        0x3 KeyedEvent       CritSecOutOfMemoryEvent
+0x81a9d4c0   1028        0x8   0x1f0003 Event            
+0xe167d388   1028        0xc        0x3 Directory        KnownDlls
+0x81a3fcf0   1028       0x10   0x100020 File             \Device\HarddiskVolume1\WINDOWS\system32
+0xe1ae45e0   1028       0x14        0x8 Key              MACHINE\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\IMAGE FILE EXECUTION OPTIONS
+0xe1ae1d58   1028       0x18   0x1f0001 Port             
+0xe1acb9d0   1028       0x1c    0x20019 Key              MACHINE\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\IMAGE FILE EXECUTION OPTIONS\DLLNXOPTIONS
+0xe1ad69e8   1028       0x20  0x2020019 Key              MACHINE
+0x81a9b398   1028       0x24   0x1f0003 Event            
+0xe1aebc70   1028       0x28        0x8 Token            
+0x81a11820   1028       0x2c  0x21f0003 Event            
+0x81dbce90   1028       0x30    0xf037f WindowStation    Service-0x0-3e5$
+0x82092778   1028       0x34    0xf01ff Desktop          Default
+0x81dbce90   1028       0x38    0xf037f WindowStation    Service-0x0-3e5$
+0x81a113a8   1028       0x3c   0x100001 File             \Device\KsecDD
+0xe12dd4f0   1028       0x40    0x2000f Directory        BaseNamedObjects
+0x81a11940   1028       0x44   0x1f0003 Event            
+0x81a462f0   1028       0x48   0x100003 Semaphore        
+0x81a6da28   1028       0x4c   0x100003 Semaphore        
+0x81a6d9f0   1028       0x50   0x100003 Semaphore        
+0x81a6d9b8   1028       0x54   0x100003 Semaphore        
+0x81a6d660   1028       0x58   0x100003 Semaphore        
+0x81a6d628   1028       0x5c   0x100003 Semaphore        
+0x81a6d5f0   1028       0x60   0x100003 Semaphore        
+0x81a6d5b8   1028       0x64   0x100003 Semaphore        
+0x81a6d580   1028       0x68   0x100003 Semaphore        
+0x81a6d548   1028       0x6c   0x100003 Semaphore        
+0x81a6d510   1028       0x70   0x100003 Semaphore        
+0x81abd370   1028       0x74   0x100003 Semaphore        
+0x81a5fbc8   1028       0x78   0x1f0003 Event            
+0x81a6d4e0   1028       0x7c   0x1f0003 Event            
+0x81a5fb98   1028       0x80   0x1f0003 Event            
+0x81a5fb68   1028       0x84   0x1f0003 Event            
+0x81a1bdb0   1028       0x88   0x1f03ff Thread           TID 1032 PID 1028
+0x81a6e500   1028       0x8c   0x1f0003 Event            
+0x81a6e4d0   1028       0x90   0x1f0003 Event            
+0xe1aea610   1028       0x94   0x1f0001 Port             
+0x82106310   1028       0x98   0x1f0003 IoCompletion     
+0x81abd2e0   1028       0x9c   0x12019f File             \Device\NamedPipe\net\NtControlPipe6
+0x81c43288   1028       0xa0   0x1f0003 IoCompletion     
+0x82106310   1028       0xa4   0x1f0003 IoCompletion     
+0xe1af3f68   1028       0xa8   0x1f0001 Port             
+0x81a734d0   1028       0xac   0x1f0003 Event            
+0x81aa59f8   1028       0xb0   0x1200a0 File             \Device\Tcp
+0x81aa5f90   1028       0xb4   0x1200a0 File             \Device\Tcp
+0x81d15db0   1028       0xb8   0x1f03ff Thread           TID 1048 PID 1028
+0x81aa3498   1028       0xbc   0x1200a0 File             \Device\Ip
+0x81aa3400   1028       0xc0   0x1200a0 File             \Device\Ip
+0x81aa33c0   1028       0xc4   0x100003 Semaphore        
+0x81a6daa0   1028       0xc8   0x100003 Semaphore        
+0xe1af6f00   1028       0xcc    0x20019 Key              MACHINE\SYSTEM\CONTROLSET001\SERVICES\TCPIP\LINKAGE
+0xe1ae2b30   1028       0xd0    0x20019 Key              MACHINE\SYSTEM\CONTROLSET001\SERVICES\TCPIP\PARAMETERS
+0xe1afbfb8   1028       0xd4    0x20019 Key              MACHINE\SYSTEM\CONTROLSET001\SERVICES\NETBT\PARAMETERS\INTERFACES
+0xe1ad3bf0   1028       0xd8    0x20019 Key              MACHINE\SYSTEM\CONTROLSET001\SERVICES\NETBT\PARAMETERS
+0x81aa5990   1028       0xdc   0x1f0003 Event            
+0x81d15db0   1028       0xe0   0x1f03ff Thread           TID 1048 PID 1028
+0x81a9dab8   1028       0xe4   0x12019f File             \Device\WMIDataDevice
+0x81a5fc40   1028       0xe8   0x1f0003 Event            
+0x821035c0   1028       0xec      0x800 WmiGuid          
+0x81a735b0   1028       0xf0   0x12019f File             \Device\WMIDataDevice
+0x81a6da70   1028       0xf4   0x1f0003 Event            
+0x81a176c0   1028       0xf8   0x1f07fb Process          svchost.exe(1028)
+0x81a9da80   1028       0xfc   0x1f0003 Event            
+0x81a9da50   1028      0x100   0x1f0003 Event            
+0x81a73538   1028      0x104   0x1f0003 Event            
+0x81a7c4f8   1028      0x108   0x1f0003 Event            
+0x81a7c4c8   1028      0x10c   0x1f0003 Event            
+0x81a7c498   1028      0x110   0x1f0003 Event            
+0x81a7c468   1028      0x114   0x1f0003 Event            
+0x81a7c438   1028      0x118   0x1f0003 Event            
+0x81a64428   1028      0x11c   0x1f0003 Event            
+0xe1afbe90   1028      0x120    0x20019 Key              MACHINE\SYSTEM\CONTROLSET001\SERVICES\WINSOCK2\PARAMETERS\PROTOCOL_CATALOG9
+0x81a643b8   1028      0x124   0x1f0003 Event            
+0xe1aef688   1028      0x128    0x20019 Key              MACHINE\SYSTEM\CONTROLSET001\SERVICES\WINSOCK2\PARAMETERS\NAMESPACE_CATALOG5
+0x81a8e3d0   1028      0x12c   0x1f03ff Thread           TID 1084 PID 1028
+0x81a96b00   1028      0x130   0x1f0003 Event            
+0x81a76c20   1028      0x134   0x1f03ff Thread           TID 1088 PID 1028
+0x81a76770   1028      0x138   0x1f03ff Thread           TID 1092 PID 1028
+0x81c5d668   1028      0x13c   0x12019f File             \Device\Tcp
+0x81a16820   1028      0x140   0x100003 File             \Device\NetBt_Wins_Export
+0x81a12608   1028      0x144   0x100003 File             \Device\NetBt_Wins_Export
+0x81df9420   1028      0x148   0x100003 Semaphore        
+0x81df93e8   1028      0x14c   0x100003 Semaphore        
+0x816aece0   1028      0x150   0x1f0003 Event            
+0x81df93b0   1028      0x154   0x100003 Semaphore        
+0x81df9378   1028      0x158   0x100003 Semaphore        
+0x81b01580   1028      0x15c   0x1f0003 Event            
+0x81b01550   1028      0x160   0x1f0003 Event            
+0x81b01520   1028      0x164   0x1f0003 Event            
+0x81b014f0   1028      0x168   0x1f0003 Event            
+0x81e6a568   1028      0x16c   0x1f0003 Event            
+0x81a5a810   1028      0x170   0x100003 Event            
+0x81a7f480   1028      0x174   0x100003 Event            
+0x81e6aa40   1028      0x178   0x1f0003 Event            
+0x81b015c0   1028      0x17c   0x1f0003 Event            W32TIME_NAMED_EVENT_SYSTIME_NOT_CORRECT
+0x81e6a508   1028      0x180   0x1f0003 Event            
+0x81e6a988   1028      0x184   0x1f0003 Event            
+0x81db27a8   1028      0x188   0x1f0003 Event            
+0x81db2778   1028      0x18c   0x1f0003 Event            
+0x81a664d8   1028      0x190   0x100003 Semaphore        
+0x816afd78   1028      0x194   0x100003 Semaphore        
+0x81a664a0   1028      0x198   0x100003 Semaphore        
+0x81a66468   1028      0x19c   0x100003 Semaphore        
+0xe19e27c8   1028      0x1a0    0xf0007 Section          DSEC404
+0x81db2718   1028      0x1a4   0x1f0003 Event            
+0xe169ea78   1028      0x1a8   0x1f0001 Port             W32TIME_ALT
+0x821ecdb0   1028      0x1ac   0x1f03ff Thread           TID 1948 PID 1028
+0x81a82b80   1028      0x1b0   0x12019f File             \Device\NamedPipe\W32TIME_ALT
+0x81f13ef8   1028      0x1b4   0x12019f File             \Device\NamedPipe\W32TIME_ALT
+0x81a66510   1028      0x1b8   0x1f0003 Event            
+0x816addb0   1028      0x1bc   0x1f03ff Thread           TID 1952 PID 1028
+0xe14f57c0   1028      0x1c0   0x1f0001 Port             
+0x81a24078   1028      0x1c4   0x100000 Event            userenv: Machine Group Policy has been applied
+0x81a66438   1028      0x1c8   0x1f0003 Event            
+0x821ebdb0   1028      0x1cc   0x1f03ff Thread           TID 1956 PID 1028
+0x816acdb0   1028      0x1d8   0x1f03ff Thread           TID 1960 PID 1028
+0x81caee68   1028      0x1dc   0x1f0003 Event            
+0x81e72eb0   1028      0x1e0   0x1f0003 Event            
+0x816acdb0   1028      0x1e4   0x1f03ff Thread           TID 1960 PID 1028
+0x81a2f590   1028      0x1e8   0x1f0003 Event            
+0x81a73228   1028      0x1ec   0x1f03ff Thread           TID 1440 PID 1028
+0x81e051c8   1028      0x1f0   0x1200a0 File             \Device\Udp
+0x81e05260   1028      0x1f4   0x16019f File             \Device\Afd\Endpoint
+0x81f35ad8   1028      0x200   0x1f0003 Event            
+0x81e05130   1028      0x204   0x16019f File             \Device\Afd\Endpoint
+0x81c7fe78   1028      0x208   0x1200a0 File             \Device\Udp
+0x81f35aa8   1028      0x20c   0x1f0003 Event            
+0x81f35a78   1028      0x210   0x1f0003 Event            
+0x81e10388   1028      0x214   0x1f0003 Event            
+0x816a0cf8   1028      0x218   0x1f0003 Timer            
+0x81e10358   1028      0x21c  0x21f0003 Event            
+0x8169fdb0   1028      0x220   0x1f03ff Thread           TID 2020 PID 1028
+0x81a6eea8   1028      0x224   0x1f0003 IoCompletion     
+0x81fddbd0   1028      0x228  0x21f0003 Event            
+0x81fdbcb0   1028      0x22c  0x21f0003 Event            
+0x81699cf8   1028      0x230   0x1f0003 Timer            
+0x81697db0   1028      0x234   0x1f03ff Thread           TID 184 PID 1028
+0x81ad4080   1028      0x238  0x21f0003 Event            
+0x81a852f8   1028      0x23c  0x21f0003 Event            
+0x81a85288   1028      0x240  0x21f0003 Event            
+0x81a76ab0   1028      0x244  0x21f0003 Event            
+0x81a85218   1028      0x248  0x21f0003 Event            
+0x81a76a40   1028      0x24c  0x21f0003 Event            
+0x81a76700   1028      0x250  0x21f0003 Event            
+0x81a76690   1028      0x254  0x21f0003 Event            
+0x81a76620   1028      0x258  0x21f0003 Event            
+0x81a765b0   1028      0x25c  0x21f0003 Event            
+0x8202ca68   1028      0x260  0x21f0003 Event            
+0x8202c9f8   1028      0x264  0x21f0003 Event            
+0x8202c988   1028      0x268  0x21f0003 Event            
+0x81698db0   1028      0x26c   0x1f03ff Thread           TID 180 PID 1028
+0x81d98170   1028      0x270   0x1f0003 Event            
+0x81a7f1b8   1028      0x274   0x1f0003 Event            
+0x81db51e8   1028      0x278   0x1f0003 Event            
+0x81698db0   1028      0x27c   0x1f03ff Thread           TID 180 PID 1028
+0x81a7e5e8   1028      0x28c   0x1f03ff Thread           TID 1444 PID 1028
+0x81a2ebc0   1028      0x290   0x1f0003 Event            

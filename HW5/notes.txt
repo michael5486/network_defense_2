@@ -1,0 +1,75 @@
+INFO    : volatility.debug    : Determining profile based on KDBG search...
+          Suggested Profile(s) : Win2003SP0x86, Win2003SP1x86, Win2003SP2x86
+                     AS Layer1 : IA32PagedMemoryPae (Kernel AS)
+                     AS Layer2 : FileAddressSpace (/home/sansforensics/Desktop/Network Defense 2/hw5/CaptureA+B-MemoryAnalysis/CaptureA-Virtual Machine-43223e0b.vmem)
+                      PAE type : PAE
+                           DTB : 0x75e000L
+                          KDBG : 0x8088e3e0L
+          Number of Processors : 1
+     Image Type (Service Pack) : 1
+                KPCR for CPU 0 : 0xffdff000L
+             KUSER_SHARED_DATA : 0xffdf0000L
+           Image date and time : 2016-03-30 12:15:04 UTC+0000
+     Image local date and time : 2016-03-30 07:15:04 -0500
+
+     $ vol.py -f CaptureA-Virtual\ Machine-43223e0b.vmem --profile=Win2003SP1x86 psxview
+Volatility Foundation Volatility Framework 2.6
+Offset(P)  Name                    PID pslist psscan thrdproc pspcid csrss session deskthrd ExitTime
+---------- -------------------- ------ ------ ------ -------- ------ ----- ------- -------- --------
+0x01a5c020 winlogon.exe            576 True   True   False    True   True  True    True     
+0x01e5fc20 services.exe            620 True   True   False    True   True  True    True     
+0x020dbd88 svchost.exe             980 True   True   False    True   True  True    True     
+0x01a3ebf8 svchost.exe            1052 True   True   False    True   True  True    True     
+0x01a0e248 svchost.exe            1708 True   True   False    True   True  True    True     
+0x01e035e8 svchost.exe             852 True   True   False    True   True  True    True     
+0x01a42020 svchost.exe            1764 True   True   False    True   True  True    False    
+0x01e02450 svchost.exe             928 True   True   False    True   True  True    True     
+0x01da9428 vmacthlp.exe            804 True   True   False    True   True  True    True     
+0x01a785b0 spoolsv.exe            1592 True   True   False    True   True  True    True     
+0x01a3abf8 vmtoolsd.exe           1820 True   True   False    True   True  True    True     
+0x01a069e0 svchost.exe             452 True   True   False    True   True  True    True     
+0x016a2d88 wmiprvse.exe           2008 True   True   False    True   True  True    True     
+0x020c8ab8 lsass.exe               632 True   True   False    True   True  True    False    
+0x01a68a60 msdtc.exe              1620 True   True   False    True   True  True    True     
+0x01a62488 dllhost.exe             188 True   True   False    True   True  True    True     
+0x01a176c0 svchost.exe            1028 True   True   False    True   True  True    True     
+0x01a419e0 dllhost.exe             280 True   True   False    True   True  True    True     
+0x01a5f598 vssvc.exe              1004 True   True   False    True   True  True    True     
+0x021a7648 System                    4 True   True   False    True   False False   False    
+0x020198e0 csrss.exe               536 True   True   False    True   False True    True     
+0x01a2e528 smss.exe                480 True   True   False    True   False False   False    
+0x017a1d88 vmtoolsd.exe           1468 False  True   False    False  False False   False    2016-03-30 12:08:59 UTC+0000
+
+
+
+
+
+$ vol.py -f CaptureB-Virtual\ Machine-43223e0b.vmem --profile=Win2003SP1x86 psxview
+Volatility Foundation Volatility Framework 2.6
+Offset(P)  Name                    PID pslist psscan thrdproc pspcid csrss session deskthrd ExitTime
+---------- -------------------- ------ ------ ------ -------- ------ ----- ------- -------- --------
+0x01a5c020 winlogon.exe            576 True   True   False    True   True  True    True     
+0x01e5fc20 services.exe            620 True   True   False    True   True  True    True     
+0x020dbd88 svchost.exe             980 True   True   False    True   True  True    True     
+0x01a3ebf8 svchost.exe            1052 True   True   False    True   True  True    True     
+0x01a0e248 svchost.exe            1708 True   True   False    True   True  True    True     
+0x01e035e8 svchost.exe             852 True   True   False    True   True  True    True     
+0x01a42020 svchost.exe            1764 True   True   False    True   True  True    False    
+0x01aaa530 wmiprvse.exe           1364 True   True   False    True   True  True    True     
+0x01e02450 svchost.exe             928 True   True   False    True   True  True    True     
+0x01da9428 vmacthlp.exe            804 True   True   False    True   True  True    True     
+0x01a785b0 spoolsv.exe            1592 True   True   False    True   True  True    True     
+0x01a3abf8 vmtoolsd.exe           1820 True   True   False    True   True  True    True     
+0x01a069e0 svchost.exe             452 True   True   False    True   True  True    True     
+0x016a2d88 wmiprvse.exe           2008 True   True   False    True   True  True    True     
+0x020c8ab8 lsass.exe               632 True   True   False    True   True  True    False    
+0x01a68a60 msdtc.exe              1620 True   True   False    True   True  True    True     
+0x01a62488 dllhost.exe             188 True   True   False    True   True  True    True     
+0x01a176c0 svchost.exe            1028 True   True   False    True   True  True    True     
+0x021a7648 System                    4 True   True   False    True   False False   False    
+0x01a6d248 cmd.exe                1564 True   True   False    True   False False   False    2016-03-30 12:20:11 UTC+0000
+0x020198e0 csrss.exe               536 True   True   False    True   False True    True     
+0x01a2e528 smss.exe                480 True   True   False    True   False False   False    
+0x017a1d88 vmtoolsd.exe           1468 False  True   False    False  False False   False    2016-03-30 12:08:59 UTC+0000
+0x01aca6a0 ipconfig.exe           1560 False  True   False    False  False False   False    2016-03-30 12:20:01 UTC+0000
+

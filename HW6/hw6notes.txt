@@ -1,0 +1,8 @@
+md5 5dffe94b25275460c6e59e692cb872b4
+sha ce30b66ba3a71fd2015bc6fb6b517336f03037e1
+sha256 164ecfc36893ee368a3c4cb2fd500b58262f1b87de1e68df74390db0b5445915
+
+steps
+1. activate virtualenv
+2. installed stix2      python3 -m pip install stix2
+
