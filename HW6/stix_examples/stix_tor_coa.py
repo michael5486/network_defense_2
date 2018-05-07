@@ -35,15 +35,16 @@ def main():
     obj.applicability_confidence = Confidence("High")
 
     i = 0
+    observables_list = []
     for ip_addr in ip_addr_list:
 
-        addr = Address(address_value="ip_addr", category=Address.CAT_IPV4)
-        coa.parameter_observables = Observables(addr)
-
-        pkg.add_course_of_action(coa)
+        addr = Address(address_value=ip_addr.group(0), category=Address.CAT_IPV4)
+        observables_list.append(addr)
         print(i)
         i = i + 1
 
+    coa.parameter_observables = Observables(observables_list)
+    pkg.add_course_of_action(coa)
     fileOut.write(pkg.to_xml(encoding=None))
 
 if __name__ == '__main__':
