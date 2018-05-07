@@ -1,0 +1,103 @@
+<stix:STIX_Package 
+	xmlns:stix="http://stix.mitre.org/stix-1"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:indicator="http://stix.mitre.org/Indicator-2"
+	xmlns:cyboxCommon="http://cybox.mitre.org/common-2"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+	xmlns:stixVocabs="http://stix.mitre.org/default_vocabularies-1"
+	xmlns:example="http://example.com"
+	xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2"
+	xmlns:AddressObj="http://cybox.mitre.org/objects#AddressObject-2"
+	xmlns:ttp="http://stix.mitre.org/TTP-1"
+	xmlns:FileObj="http://cybox.mitre.org/objects#FileObject-2"
+	xmlns:cybox="http://cybox.mitre.org/cybox-2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:WinRegistryKeyObj="http://cybox.mitre.org/objects#WinRegistryKeyObject-2"
+	xmlns:stixCommon="http://stix.mitre.org/common-1"
+	 id="example:Package-e61582b4-7518-4425-afb5-11306ae3cc3f" version="1.2">
+    <stix:Indicators>
+        <stix:Indicator id="example:indicator-d0afc4e0-6735-4e58-a832-94cf9e7fe7c1" timestamp="2018-05-04T19:07:00.375917+00:00" xsi:type='indicator:IndicatorType'>
+            <indicator:Title>File hash for Install+plugin.exe</indicator:Title>
+            <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">File Hash Watchlist</indicator:Type>
+            <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">IP Watchlist</indicator:Type>
+            <indicator:Observable id="example:Observable-42b8e208-a000-4c09-afde-b28a6549c42f">
+                <cybox:Object id="example:File-4c106804-4384-4126-a4c8-a688a83d74ef">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name>Install+plugin1.exe</FileObj:File_Name>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">SHA256</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value condition="Equals">164ecfc36893ee368a3c4cb2fd500b58262f1b87de1e68df74390db0b5445915</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Indicated_TTP>
+                <stixCommon:TTP idref="example:ttp-1d375e9c-3b1a-41bc-b758-4c711baf1a68" xsi:type='ttp:TTPType'/>
+            </indicator:Indicated_TTP>
+        </stix:Indicator>
+        <stix:Indicator id="example:indicator-9766c062-39bc-490a-bda7-445fbae4d767" timestamp="2018-05-04T19:07:00.378119+00:00" xsi:type='indicator:IndicatorType'>
+            <indicator:Title>File hash for plugin1.exe</indicator:Title>
+            <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">File Hash Watchlist</indicator:Type>
+            <indicator:Observable id="example:Observable-f4521af2-81fd-4a86-9826-aef27d49de85">
+                <cybox:Object id="example:File-d56cee2d-a65a-483b-a482-b97451efe067">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name>plugin1.exe</FileObj:File_Name>
+                        <FileObj:File_Path>C:\Users\Default\AppData\Local\temp\plugin1</FileObj:File_Path>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">SHA256</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value condition="Equals">ae768b62f5fef4dd604e1b736bdbc3ed30417ef4f67bff74bb57f779d794d6df</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Indicated_TTP>
+                <stixCommon:TTP idref="example:ttp-1d375e9c-3b1a-41bc-b758-4c711baf1a68" xsi:type='ttp:TTPType'/>
+            </indicator:Indicated_TTP>
+        </stix:Indicator>
+        <stix:Indicator id="example:indicator-20977db6-7d82-47c7-8d38-33b4e3c997f1" timestamp="2018-05-04T19:07:00.378428+00:00" xsi:type='indicator:IndicatorType'>
+            <indicator:Title>Registry entry for Install+plugin.exe</indicator:Title>
+            <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">Malware Artifacts</indicator:Type>
+            <indicator:Observable id="example:Observable-2f5e81d8-bafe-4d62-9cb6-3a48481e8fe2">
+                <cybox:Object id="example:WinRegistryKey-5eceb603-52f7-4006-b50d-0d7c46d893ad">
+                    <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Indicated_TTP>
+                <stixCommon:TTP idref="example:ttp-1d375e9c-3b1a-41bc-b758-4c711baf1a68" xsi:type='ttp:TTPType'/>
+            </indicator:Indicated_TTP>
+        </stix:Indicator>
+        <stix:Indicator id="example:indicator-ddc4ae2a-f62e-45ba-9293-ab2a64340fc2" timestamp="2018-05-04T19:07:00.378739+00:00" xsi:type='indicator:IndicatorType'>
+            <indicator:Title>Network Traffic for plugine1.exe</indicator:Title>
+            <indicator:Observable id="example:Observable-23b5072d-07c8-476a-bac9-73f8db5eb07b">
+                <cybox:Object id="example:Address-336c8323-07b7-4772-bf73-c9817f1c47a1">
+                    <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                        <AddressObj:Address_Value>192.168.52.219</AddressObj:Address_Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Indicated_TTP>
+                <stixCommon:TTP idref="example:ttp-1d375e9c-3b1a-41bc-b758-4c711baf1a68" xsi:type='ttp:TTPType'/>
+            </indicator:Indicated_TTP>
+        </stix:Indicator>
+    </stix:Indicators>
+    <stix:TTPs>
+        <stix:TTP id="example:ttp-1d375e9c-3b1a-41bc-b758-4c711baf1a68" timestamp="2018-05-04T19:07:00.374150+00:00" xsi:type='ttp:TTPType'>
+            <ttp:Title>Install+plugin1.exe</ttp:Title>
+            <ttp:Behavior>
+                <ttp:Malware>
+                    <ttp:Malware_Instance>
+                        <ttp:Type xsi:type="stixVocabs:MalwareTypeVocab-1.0">Remote Access Trojan</ttp:Type>
+                        <ttp:Name>plugin1.exe</ttp:Name>
+                    </ttp:Malware_Instance>
+                </ttp:Malware>
+            </ttp:Behavior>
+        </stix:TTP>
+    </stix:TTPs>
+</stix:STIX_Package>
+
